@@ -1,0 +1,44 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#tab-menu .menu {
+  margin-top: 20px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gainsboro;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+#tab-menu .menu div {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+#tab-menu .menu div:hover {
+  background-color: yellow;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#tab-menu .body {
+  border: 1px solid gray;
+  width: 500px;
+  padding: 30px;
+}
+
+.item {
+  display: block;
+}
+
+.active {
+  background-color: gray !important;
+}
+/*# sourceMappingURL=style.css.map */
